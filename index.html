@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
+
+
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+<h1>Naujas puslapis</h1>
+        <div class="container">
+            <div class="row">
+
+
+
+                <div class="col-md-12">
+                    <table class="table" id="tbl">
+                        <tbody>
+                        <tr style="background: darkblue; color: white">
+                            <td colspan="2">Pavadinimas</td>
+                            <td>Veiksmas</td>
+                        </tr>
+                        <tr >
+
+                            <td colspan="3">Vaisiai</td>
+                        </tr>
+                        <tr >
+                            <td>Obuolys</td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSriyBLBxK6xuOkMdGn2CygxU2trmsHJyd5tlxT5GV0lPXnHXuSdg"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr >
+                            <td>Apelsinas</td>
+                            <td><img src="http://images.all-free-download.com/images/graphiclarge/orange_310898.jpg"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr >
+                            <td>Obuolys</td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSriyBLBxK6xuOkMdGn2CygxU2trmsHJyd5tlxT5GV0lPXnHXuSdg"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr >
+                            <td>Apelsinas</td>
+                            <td><img src="http://images.all-free-download.com/images/graphiclarge/orange_310898.jpg"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr>
+                            <td>Obuolys</td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSriyBLBxK6xuOkMdGn2CygxU2trmsHJyd5tlxT5GV0lPXnHXuSdg"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr >
+                            <td>Apelsinas</td>
+                            <td><img src="http://images.all-free-download.com/images/graphiclarge/orange_310898.jpg"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr >
+                            <td colspan="3">Daržovės</td>
+
+                        </tr>
+                        <tr >
+                            <td>Morka</td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFIPuuX8S5eyUs0isVJ1zStsphjsQPA07AllqyalTD3blm1g5-"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr>
+                            <td>Morka</td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFIPuuX8S5eyUs0isVJ1zStsphjsQPA07AllqyalTD3blm1g5-"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        <tr>
+                            <td>Morka</td>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFIPuuX8S5eyUs0isVJ1zStsphjsQPA07AllqyalTD3blm1g5-"></td>
+                            <td><button style="color: orangered"><a>Pirkti</a></button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+
+   <!     <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Prideti eilute
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Irasykite i laukelius informacija</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <label>Name:</label><form> <input type="text" id="data">
+                        </form>
+                        <label>URL:</label><form> <input type="text" id="img">
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Uzdaryti</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" id="savebtn">Issaugoti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <?php
+echo(max(2,4,6,8,10) . "<br>");
+
+</body>
+</html>
